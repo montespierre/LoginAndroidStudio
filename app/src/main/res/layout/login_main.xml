@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vistas.Activities.LoginActivity">
+
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:text="Weimont Systems" />
+
+    <EditText
+        android:id="@+id/idNombre"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="162dp"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/idPassword"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="212dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/teal_700"
+        android:hint="INGRESAR"
+        android:textColorHint="@color/white"
+
+        />
+
+</RelativeLayout>

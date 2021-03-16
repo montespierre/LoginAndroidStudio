@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoginAndroidStudio</string>
+    <string name="ip_servidor">172.20.10.6:8081</string>
+</resources>
